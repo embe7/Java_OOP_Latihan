@@ -12,10 +12,27 @@ package latihan4.method;
 class Person {
     //fields
 
-    final String nameApp = "JombloAkut";
+    final String nameApp = "Melihat Nilai";
 
-    //method
+    //method parameter
     void sayHello(String name){
         System.out.println("Hi " + name + " selamat datang di Aplikasi " + nameApp);
     }
+
+    //Method Variabel Argumen
+    void sayValue(int... values){
+        int total = 0;
+
+        for (int value : values){
+            total += value;
+        }
+
+        int NilaiAkhir = total / values.length;
+        if (NilaiAkhir >= 65){
+            System.out.println("Lulus");
+        }else{
+            System.out.println("Tidak Lulus");
+        }
+    }
+
 }
