@@ -1,4 +1,4 @@
-package lattihan18.Import.Data;
+package latihan18.Import.Data;
 
 public class Product {
     //atribut

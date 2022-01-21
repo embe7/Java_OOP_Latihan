@@ -1,7 +1,7 @@
-package lattihan18.Import.Aplication;
+package latihan18.Import.Aplication;
 
 //import
-import lattihan18.Import.Data.Product;
+import latihan18.Import.Data.Product;
 
 /**
  * Import
