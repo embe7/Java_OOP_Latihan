@@ -19,6 +19,9 @@ public class EqualMethodApp {
         Product data2 = new Product("Lenovo",5_000_000);
         System.out.println(data2);
 
+        Product data3 = new Product("Acerr",4_000_000);
+
         System.out.println(data1.equals(data2));
+        System.out.println(data1.equals(data3));
     }
 }
