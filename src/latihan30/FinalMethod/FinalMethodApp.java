@@ -9,7 +9,9 @@ package latihan30.FinalMethod;
  *   oleh class child nya.
  */
 
+
 public class FinalMethodApp {
+
 }
 
 class SocialMedia{
@@ -26,4 +28,6 @@ class FakeFacebook extends facebook{
     //Erorr
 //    void login(String UserName,String password){
 //     }
+
 }
+
